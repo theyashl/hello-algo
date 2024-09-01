@@ -200,7 +200,7 @@ A <u>binary tree</u> is a non-linear data structure that represents the hierarch
 
 Each node has two references (pointers), pointing to the <u>left-child node</u> and <u>right-child node</u>, respectively. This node is called the <u>parent node</u> of these two child nodes. When given a node of a binary tree, we call the tree formed by this node's left child and all nodes under it the <u>left subtree</u> of this node. Similarly, the <u>right subtree</u> can be defined.
 
-**In a binary tree, except for leaf nodes, all other nodes contain child nodes and non-empty subtrees.** As shown in the figure below, if "Node 2" is considered as the parent node, then its left and right child nodes are "Node 4" and "Node 5," respectively. The left subtree is "the tree formed by Node 4 and all nodes under it," and the right subtree is "the tree formed by Node 5 and all nodes under it."
+**In a binary tree, except for leaf nodes, all other nodes contain child nodes and non-empty subtrees.** As shown in the figure below, if "Node 1" is considered as the parent node, then its left and right child nodes are "Node 2" and "Node 3," respectively. The left subtree is "the tree formed by Node 2 and all nodes under it," and the right subtree is "the tree formed by Node 3 and all nodes under it."
 
 ![Parent Node, child Node, subtree](binary_tree.assets/binary_tree_definition.png)
 
